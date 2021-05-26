@@ -98,7 +98,7 @@
     
     .social-link a.social-link-text{
         color: #fff;
-        font-size: 3em;
+        font-size: 2em;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
     }
@@ -173,4 +173,10 @@ body{
     padding: 0 20px;
     max-width: 25vh;
 }
+}
+
+@media screen and (min-width : 1200px) {
+    .social-link a.social-link-text{
+        font-size: 3em;
+    }
 }
