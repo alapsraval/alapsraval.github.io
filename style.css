@@ -175,7 +175,7 @@ body{
 }
 }
 
-@media screen and (min-width : 1200px) {
+@media screen and (min-width : 1400px) {
     .social-link a.social-link-text{
         font-size: 3em;
     }
