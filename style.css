@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
 body {
     display: block;
     overflow: scroll;
     max-height: 100vh;
     background-color: #0b1c2f;
-    font-family: Roboto, sans-serif;
+    font-family: Lato, sans-serif;
 }
 .left-content {
     display: -webkit-box;
@@ -89,6 +91,7 @@ body {
 }
 .social-link a.social-link-text {
     color: #fff;
+    font-family: Roboto, sans-serif;
     font-size: 2em;
     font-weight: 700;
     text-decoration: none;
